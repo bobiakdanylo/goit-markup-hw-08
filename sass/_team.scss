@@ -1,0 +1,188 @@
+.team {
+    background: #F5F4FA;
+    // width: 1519px;
+    // height: 648px;
+  }
+  
+  .team__list {
+    display: flex;
+    gap: 30px;
+    & > li {
+      background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 90px) / 4);
+    }
+    }
+    flex-wrap: wrap;
+  }
+
+  .member__number-1 {
+    @media screen and (min-width: 450px)
+     and (max-width: 767px) {
+      width: 450px;
+      height: 460px;
+      background-image: url(../images/team-mobile-1x-1.jpg);
+     }
+     @media screen and (min-width: 767px)
+     and (max-width: 1199px) {
+      width: 354px;
+      height: 374px;
+      background-image: url(../images/team-tablet-1x-1.jpg);
+     }
+     @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+      background-image: url(../images/team-desktop-1x-1.jpg);
+     }
+  }
+
+  .member__number-2 {
+    @media screen and (min-width: 450px)
+     and (max-width: 767px) {
+      width: 450px;
+      height: 460px;
+      background-image: url(../images/team-mobile-1x-2.jpg);
+     }
+     @media screen and (min-width: 767px)
+     and (max-width: 1199px) {
+      width: 354px;
+      height: 374px;
+      background-image: url(../images/team-tablet-1x-2.jpg);
+     }
+     @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+      background-image: url(../images/team-desktop-1x-2.jpg);
+     }
+  }
+
+  .member__number-3 {
+    @media screen and (min-width: 450px)
+     and (max-width: 767px) {
+      width: 450px;
+      height: 460px;
+      background-image: url(../images/team-mobile-1x-3.jpg);
+     }
+     @media screen and (min-width: 767px)
+     and (max-width: 1199px) {
+      width: 354px;
+      height: 374px;
+      background-image: url(../images/team-tablet-1x-3.jpg);
+     }
+     @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+      background-image: url(../images/team-desktop-1x-3.jpg);
+     }
+  }
+
+  .member__number-4 {
+    @media screen and (min-width: 450px)
+     and (max-width: 767px) {
+      width: 450px;
+      height: 460px;
+      background-image: url(../images/team-mobile-1x-4.jpg);
+     }
+     @media screen and (min-width: 767px)
+     and (max-width: 1199px) {
+      width: 354px;
+      height: 374px;
+      background-image: url(../images/team-tablet-1x-4.jpg);
+     }
+     @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+      background-image: url(../images/team-desktop-1x-4.jpg);
+     }
+  }
+
+  .team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-bottom: 50px;
+    @media screen and (min-width: 767px) and (max-width: 1199px) {
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+    }
+  }
+  
+  .member__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    padding-bottom: 10px;
+  }
+  
+  .member__skill {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    padding-bottom: 16px;
+  }
+  
+  .members {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .member__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .member__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    fill: #AFB1B8;
+    &:hover, &:hover a {
+      background-color: #2196f3;
+      fill: #FFFFFF;
+    }
+  }
+  
+  .member__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: fill 250ms linear, background-color 250ms linear;
+    &:focus {
+      fill: #FFFFFF;
+      background-color: #2196f3;
+    }
+    fill: #AFB1B8;
+  }

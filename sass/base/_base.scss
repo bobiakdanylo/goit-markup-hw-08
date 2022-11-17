@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  :root {
+    --main-color: #212121;
+    --color-text: #757575;
+    --main-text-height: 1.71;
+    --text-height: 1.14;
+  }
+  
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    @media screen and (min-width: 320px) {
+      max-width: 480px;
+      .we-do {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      .we-do {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+      .we-do {
+        display: block;
+      }
+      .section{
+        padding-top: 94px;
+        padding-bottom: 94px;
+      }
+    }
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &:nth-child(4) {
+      background: #F5F4FA;
+    }
+    &:nth-child(3) {
+      @media screen and (min-width: 320px) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      @media screen and (min-width: 1200px) {
+        padding-bottom: 94px;
+      }
+    }
+    @media screen and (min-width: 767px) and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
+  .we-do__list {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+  }
+  

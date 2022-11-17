@@ -1,0 +1,70 @@
+.container-hat {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4) ) ,
+     url(../images/studio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (min-width:320px) and (max-width:767px) {
+      min-width: 320px;
+      max-width: 767px;
+      height: 400px;
+      background: #2F303A;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/hat.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-top: 118px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/mobile-2x.jpg);
+  }
+    @media screen and (min-width:767px) and (max-width:1199px) {
+      min-width: 768px;
+      max-width: 1199px;
+      height: 400px;
+      background: #2F303A;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/tablet.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-top: 118px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/tablet-2x.jpg);
+  }
+    @media screen and (min-width:1200px) {
+      min-width: 1200px;
+      height: 600px;
+      background: #2F303A;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/studio.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4) ) ,
+       url(../images/desktop-2x.jpg);
+  }
+  }
+  

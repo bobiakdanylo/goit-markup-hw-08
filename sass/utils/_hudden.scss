@@ -1,0 +1,14 @@
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scaleY(0);
+  }
+  
+
+  .no-scroll {
+    overflow: hidden;
+  }
